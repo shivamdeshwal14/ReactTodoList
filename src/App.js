@@ -53,7 +53,7 @@ const App=()=>{
 setTodoList(todoList.filter(item => item.id!==myId))
   }
   return <div>
-    <img src={img} width={100} height={100} className="logo"/>
+    <img src={img} alt="image" width={100} height={100} className="logo"/>
   <h1 className="app-title">React To Do List</h1>
   <div className="container">
     Add Tasks 
